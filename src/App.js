@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Fragment } from "react";
 import HeaderSite from "./myComponent/header";
 import About from "./myComponent/About";
 import Education from "./myComponent/education";
@@ -114,7 +114,7 @@ const particlesOptions = {
   },
   retina_detect: true,
 };
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <Fragment>
