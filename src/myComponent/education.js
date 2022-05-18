@@ -30,7 +30,7 @@ function getSteps() {
 function getStepContent(step) {
   switch (step) {
     case 0:
-      return `Pursuing Bachelors of Engineering in Computer Science and Engineering from American International University-Bangladesh`;
+      return `Completed Bachelors of Engineering in Computer Science and Engineering from American International University-Bangladesh`;
     case 1:
       return "Completed Higher Secondary from Banaphool Green Heart College, Dhaka";
     case 2:
@@ -43,7 +43,7 @@ function getStepContent(step) {
 class VerticalLinearStepper extends Component {
   state = {
     activeStep: 0,
-    year: ["2017 - present", "2015 - 2017", "2003 - 2015"],
+    year: ["2017 - 2021", "2015 - 2017", "2003 - 2015"],
   };
   handleNext = () => {
     this.setState((state) => ({
