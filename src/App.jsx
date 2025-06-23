@@ -147,6 +147,9 @@ function App() {
               <a href="https://linkedin.com/in/aacfahim" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin className="h-6 w-6" />
               </a>
+                <a href="https://facebook.com/aacfahim" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <Facebook className="h-6 w-6" />
+              </a>
             </motion.div>
           </div>
         </div>
@@ -179,8 +182,7 @@ function App() {
               <div className="grid grid-cols-2 gap-4">
                 <motion.div variants={itemVariants}>
                   <h4 className="font-semibold mb-2">Education</h4>
-                  <p className="text-muted-foreground">BSc in Computer Science</p>
-                  <p className="text-muted-foreground">CGPA: 3.31/4.0</p>
+                  <p className="text-muted-foreground">Bachelors in Computer Science and Engineering</p>
                 </motion.div>
                 <motion.div variants={itemVariants}>
                   <h4 className="font-semibold mb-2">Experience</h4>
@@ -489,12 +491,13 @@ function App() {
             </motion.div>
             
             <motion.div variants={cardVariants}>
+
               <Card className="group hover:shadow-lg transition-shadow bg-card/50 backdrop-blur-sm border-metallic-light dark:border-metallic-dark">
                 <CardHeader>
                   <CardTitle className="flex items-center justify-between">
                     MineStream
-                    <ExternalLink className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </CardTitle>
+              <a href="https://github.com/aacfahim/minestream" target="_blank" rel="noopener noreferrer" className="ml-2 text-muted-foreground hover:text-primary transition-colors flex items-center">
+                      <ExternalLink className="h-4 w-4" /> </a>                  </CardTitle>
                   <CardDescription>Video Calling Application</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -516,11 +519,106 @@ function App() {
                     </motion.div>
                   </div>
                 </CardContent>
+                
+
               </Card>
+
+
             </motion.div>
+              <Card className="group hover:shadow-lg transition-shadow bg-card/50 backdrop-blur-sm border-metallic-light dark:border-metallic-dark">
+                <CardHeader>
+                  <CardTitle className="flex items-center justify-between">
+                   WhatsApp Clone App
+                    <a href="https://eloquent-swan-befee6.netlify.app/#/" target="_blank" rel="noopener noreferrer" className="ml-2 text-muted-foreground hover:text-primary transition-colors flex items-center">
+                      <ExternalLink className="h-4 w-4" /> </a>
+                  </CardTitle>
+                  <CardDescription>Mobile and Web Application</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground mb-4">
+                  WhatsApp Mobile and Web UI clone application built with Flutter
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <motion.div variants={badgeVariants}>
+                      <Badge variant="outline" className="bg-metallic-accent text-metallic-foreground">Flutter</Badge>
+                    </motion.div>
+                    <motion.div variants={badgeVariants}>
+                      <Badge variant="outline" className="bg-metallic-accent text-metallic-foreground">Dart</Badge>
+                    </motion.div>
+                    <motion.div variants={badgeVariants}>
+                      <Badge variant="outline" className="bg-metallic-accent text-metallic-foreground">Cross-Platform</Badge>
+                    </motion.div>
+                  </div>
+                </CardContent>
+              </Card>
+
+
+
+                          <Card className="group hover:shadow-lg transition-shadow bg-card/50 backdrop-blur-sm border-metallic-light dark:border-metallic-dark">
+                <CardHeader>
+                  <CardTitle className="flex items-center justify-between">
+                    Instagram Clone App
+                  <a href="https://github.com/aacfahim/instagram-clone-flutter" target="_blank" rel="noopener noreferrer" className="ml-2 text-muted-foreground hover:text-primary transition-colors flex items-center">
+                      <ExternalLink className="h-4 w-4" />
+                    </a>
+                  </CardTitle>
+                  <CardDescription>Mobile Application</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground mb-4">
+                   A mobile application that mimics the core features of Instagram, allowing users to share photos, follow others, and engage with content.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <motion.div variants={badgeVariants}>
+                      <Badge variant="outline" className="bg-metallic-accent text-metallic-foreground">Flutter</Badge>
+                    </motion.div>
+                    <motion.div variants={badgeVariants}>
+                      <Badge variant="outline" className="bg-metallic-accent text-metallic-foreground">Dart</Badge>
+                    </motion.div>
+                    <motion.div variants={badgeVariants}>
+                      <Badge variant="outline" className="bg-metallic-accent text-metallic-foreground">Cross-platform</Badge>
+                    </motion.div>
+              
+                  </div>
+                </CardContent>
+              </Card>
+
+            
+
+ <Card className="group hover:shadow-lg transition-shadow bg-card/50 backdrop-blur-sm border-metallic-light dark:border-metallic-dark">
+                <CardHeader>
+                  <CardTitle className="flex items-center justify-between">
+                    Text Recognition and Document Scanner
+                    <a href="https://github.com/aacfahim/text-recognition" target="_blank" rel="noopener noreferrer" className="ml-2 text-muted-foreground hover:text-primary transition-colors flex items-center">
+                      <ExternalLink className="h-4 w-4" />
+                    </a>
+                  </CardTitle>
+                  <CardDescription>Mobile Application</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground mb-4">
+                    A mobile application that utilizes Google ML Kit to recognize and extract text from images, providing users with a powerful tool for digitizing printed content.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <motion.div variants={badgeVariants}>
+                      <Badge variant="outline" className="bg-metallic-accent text-metallic-foreground">Flutter</Badge>
+                    </motion.div>
+                    <motion.div variants={badgeVariants}>
+                      <Badge variant="outline" className="bg-metallic-accent text-metallic-foreground">Dart</Badge>
+                    </motion.div>
+                    <motion.div variants={badgeVariants}>
+                      <Badge variant="outline" className="bg-metallic-accent text-metallic-foreground"> Google ML Kit</Badge>
+                    </motion.div>
+              
+                  </div>
+                </CardContent>
+              </Card>
+
           </div>
         </div>
       </motion.section>
+
+      
 
       {/* Education Section */}
       <motion.section
