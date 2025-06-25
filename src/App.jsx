@@ -187,7 +187,7 @@ function App() {
               <motion.div variants={itemVariants} className="space-y-4">
                 <h1 className="text-4xl sm:text-6xl font-bold tracking-tight">
                   Hi, I'm{" "}
-                  <span className="text-primary">Ashfaq Afzal Chowdhury</span>
+                  <span className="text-primary">Ashfaq Afzal Chowdhury FAHIM</span>
                 </h1>
                 <p className="text-xl sm:text-2xl text-muted-foreground">
                   Software Developer
