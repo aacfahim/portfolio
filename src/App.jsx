@@ -553,7 +553,7 @@ function App() {
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    {["Git", "Docker", "Postman"].map((skill) => (
+                    {["Git", "Docker", "Postman", "Jira"].map((skill) => (
                       <motion.div key={skill} variants={badgeVariants}>
                         <Badge
                           variant="secondary"
