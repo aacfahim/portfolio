@@ -127,7 +127,7 @@ function App() {
               transition={{ duration: 0.5 }}
               className="font-bold text-xl text-primary"
             >
-              Ashfaq Afzal Chowdhury
+              Ashfaq Afzal Chowdhury (Fahim)
             </motion.div>
             <div className="flex items-center space-x-8">
               <div className="hidden md:flex space-x-8">
